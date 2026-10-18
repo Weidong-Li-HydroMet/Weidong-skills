@@ -1,0 +1,4 @@
+interface:
+  display_name: "WD-writing"
+  short_description: "Revise scientific writing using recent, well-attributed work"
+  default_prompt: "Use $wd-writing to revise this manuscript passage based on recent writing samples with strong attribution, and explain the key changes to the argument."

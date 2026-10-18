@@ -1,0 +1,4 @@
+interface:
+  display_name: "WD-talk"
+  short_description: "Review slide arguments and rehearse one question at a time"
+  default_prompt: "Use $wd-talk to read my slides, then ask questions and follow-ups one at a time based on my explanation."

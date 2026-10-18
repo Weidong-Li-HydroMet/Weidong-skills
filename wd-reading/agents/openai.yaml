@@ -1,0 +1,4 @@
+interface:
+  display_name: "WD-reading"
+  short_description: "Read ML papers for methods, evidence, and research transfer"
+  default_prompt: "Use $wd-reading to explain this paper’s motivation, method, evidence, and transfer to my research."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "WD-sci"
+  short_description: "Assess research and changing views with current public evidence"
+  default_prompt: "Use $wd-sci to discuss this paper's claims, evidence, and key tests in light of Pedram's latest relevant views."

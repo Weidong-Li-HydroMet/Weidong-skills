@@ -1,0 +1,142 @@
+{
+  "collected_on": "2026-10-18",
+  "scope": "Public evidence for slide-grounded scientific rehearsal; observations do not recreate a person's private judgment.",
+  "sources": [
+    {
+      "id": "T01",
+      "title": "Unpacking AI Weather Emulators: What and How Do They Learn?",
+      "url": "https://www.imsi.institute/activities/unpacking-ai-weather-emulators/",
+      "content_date": "2026-09-28",
+      "date_type": "scheduled talk date; workshop September 28-October 2",
+      "source_family": "imsi-2026-weather-emulators",
+      "speaker": "Pedram Hassanzadeh for September 28 11:30 talk; other workshop speakers separate",
+      "access_level": "official schedule and abstracts read; recording not found",
+      "locator": "Monday September 28, 11:30-11:50: Physics vs. performance: Arrow of Time, butterflies, and the role of training data; Tuesday/Wednesday panels",
+      "summary": "Latest verified technical-talk title emphasizes physical learning, predictive performance, perturbations, and training data. The official program also identifies Hassanzadeh as panel participant and moderator.",
+      "limitations": "A title is weak evidence for detailed beliefs. No observed delivery, questions, answers, slides, or transcript. Workshop description is jointly organized, not uniquely authored by him."
+    },
+    {
+      "id": "T02",
+      "title": "The coming storm: How AI can help us forecast and harness the weather",
+      "url": "https://www.marsdd.com/magazine/the-coming-storm-how-ai-can-help-us-forecast-and-harness-the-weather/",
+      "content_date": "2026-08-27",
+      "date_type": "official publication date; recording date unknown",
+      "source_family": "mars-solveforx-2026-coming-storm",
+      "speaker": "Hassanzadeh segments only; narrator, Manjula Selvarajah, Catherine Nakalembe and Tatiana Estevez excluded from personal attribution",
+      "access_level": "official full transcript read; audio linked but not listened",
+      "locator": "Alternate transcript https://solveforx.simplecast.com/episodes/the-coming-storm-how-ai-can-help-us-forecast-and-harness-the-weather-2N8yhdqU ; speaker turns beginning 'Like as a scientist', 'So it was basically validated', 'Did they act on it', 'If you want to build the next generation'",
+      "summary": "Personal statements describe checking papers and figures, validation, uncertain real-world benefit, open models for benchmarking, and studying failures to improve future models.",
+      "limitations": "Edited multi-speaker podcast. Narrator's strong claims must not be attributed to Hassanzadeh. No timing or vocal-delivery analysis. Same transcript on MaRS and Simplecast counts once."
+    },
+    {
+      "id": "T03",
+      "title": "Using AI to predict the weather",
+      "url": "https://www.pnas.org/post/podcast/using-ai-predict-weather",
+      "content_date": "2026-06-15",
+      "date_type": "publication date; original recording date unknown",
+      "source_family": "pnas-science-sessions-2026-weather",
+      "speaker": "Hassanzadeh turns separately labeled; Qiang Sun is a separate author/speaker, not a Hassanzadeh quotation",
+      "access_level": "official transcript read; audio linked but not listened",
+      "locator": "Final gray-swan section, Hassanzadeh first turn after host introduction and final turn after Qiang Sun; transcript web lines 162-172 at collection",
+      "summary": "Defines gray swans and separates geographical transfer from extrapolation beyond observed event strengths. Explicit speaker labels permit clean attribution.",
+      "limitations": "A compilation episode may reuse earlier recordings. Do not promote its publication date to a new change in position. Sun describes experimental design; distinguish his speech from Hassanzadeh's."
+    },
+    {
+      "id": "T04",
+      "title": "AI and the Second Revolution in Climate Modeling: Promises and Challenges",
+      "url": "https://www.bgc-jena.mpg.de/events/45300/5045239",
+      "content_date": "2026-06-09",
+      "date_type": "event date",
+      "source_family": "mpi-bgc-2026-colloquium",
+      "speaker": "Pedram Hassanzadeh",
+      "access_level": "official search-index abstract and official archive read; event open returned cache miss",
+      "locator": "Archive https://www.bgc-jena.mpg.de/en/research/events/lectures-archive ; June 9, 2026 entry",
+      "summary": "Seminar title and abstract connect AI forecast advances with rare extremes and multiscale limitations.",
+      "limitations": "Metadata-level evidence. No verified slides, recording, transcript, or question-answer sequence."
+    },
+    {
+      "id": "T05",
+      "title": "Could AI models forecast extreme weather events? with Pedram Hassanzadeh",
+      "url": "https://news.uchicago.edu/big-brains-podcast-could-ai-models-forecast-extreme-weather-events",
+      "content_date": "2026-04-02",
+      "date_type": "publication date",
+      "source_family": "uchicago-bigbrains-2026-extremes",
+      "speaker": "Pedram Hassanzadeh interview answers; host Paul Rand and news clips excluded",
+      "access_level": "full official transcript read; audio not listened",
+      "locator": "Sections What are Gray Swans?; Will AI climate models replace the traditional models?; final outlook. Date corroborated at https://climate.uchicago.edu/insights/could-ai-models-forecast-extreme-weather-events-with-pedram-hassanzadeh/",
+      "summary": "Explains why extremes matter, connects computational speed to ensembles, motivates controlled withheld-event tests, and distinguishes present capability from future uncertainty.",
+      "limitations": "Transcript contains apparent recognition errors in technical names and quantities; quote no uncertain wording without audio verification. Edited public interview is not group-meeting Q&A."
+    },
+    {
+      "id": "T06",
+      "title": "ECCE Seminar - Pedram Hassanzadeh",
+      "url": "https://rec.unil.ch/videos/pedram-hassanzadeh-seminar/iframe/",
+      "content_date": "2025-11-26",
+      "date_type": "media creation date in indexed page, not verified event date",
+      "source_family": "unil-ecce-2025-seminar",
+      "speaker": "Title names Pedram Hassanzadeh; metadata lists Ryan Cotsakis, role unresolved",
+      "access_level": "search-index player metadata only; direct page returned cache miss",
+      "locator": "Indexed media title and Date de création; player shows slides/transcription tabs",
+      "summary": "Potential recent seminar recording with slide and transcript interfaces.",
+      "limitations": "Candidate only. The presence of a transcription tab is not proof that a usable transcript exists. Resolve speaker metadata and event date before assigning personal-style evidence."
+    },
+    {
+      "id": "T07",
+      "title": "Can AI Emulators Predict Out-Of-Distribution Gray Swan Weather Extremes?",
+      "url": "https://essic.umd.edu/events/can-ai-emulators-predict-out-of-distribution-gray-swan-weather-extremes/",
+      "content_date": "2025-11-17",
+      "date_type": "event date",
+      "source_family": "umd-essic-2025-gray-swans",
+      "speaker": "Pedram Hassanzadeh",
+      "access_level": "official abstract and linked bibliography read; individual recording not located",
+      "locator": "Abstract paragraphs; Relevant materials; seminar recording-channel link",
+      "summary": "Technical abstract pairs monsoon forecasting success with rare-event and QBO limitations and possible rare-event sampling solutions.",
+      "limitations": "An abstract supports narrative scope, not observed slide design or delivery. Do not treat general channel link as this recording."
+    },
+    {
+      "id": "T08",
+      "title": "Can AI models predict out-of-distribution gray swan weather extremes?",
+      "url": "https://aiscienceconference.caltech.edu/people/pedram-hassanzadeh",
+      "content_date": "2025-11-11",
+      "date_type": "event date verified against official program",
+      "source_family": "caltech-ai-science-2025-gray-swans",
+      "speaker": "Pedram Hassanzadeh; adjacent Ashesh Chattopadhyay talk is distinct",
+      "access_level": "official abstract/program read and video link verified; video not watched or transcribed",
+      "locator": "https://aiscienceconference.caltech.edu/program : Day 2 9:45am; https://www.youtube.com/watch?v=dJHsWpZzGLA",
+      "summary": "Recent technical talk on failures for unobserved extremes and combining AI with rare-event sampling and active learning.",
+      "limitations": "Caption availability, visual sequence, duration, pacing and audience questions remain unverified."
+    },
+    {
+      "id": "T09",
+      "title": "Duration and size of blocking events: Future changes and impacts on weather extremes",
+      "url": "https://usclivar.org/sites/default/files/2024-03/hassanzadeh-pedram-blocking.pdf",
+      "content_date": "2024-03-20",
+      "date_type": "event date verified independently of upload/crawl date",
+      "source_family": "usclivar-2024-blocking",
+      "speaker": "Pedram Hassanzadeh is scheduled presenter; slides also credit Ebrahim Nabizadeh and Sandro Lubis",
+      "access_level": "39-page PDF full extracted text read; all 39 rendered pages visually inspected in contact sheets; pages 14, 19, 20, 30, 33 inspected individually at 1400px",
+      "locator": "https://usclivar.org/meetings/blocking-extreme-weather-agenda : Wednesday 10:45am; official day recording https://youtu.be/69MV6RrSPLQ ; PDF pages 1-39",
+      "summary": "A complete technical deck linking climate impacts, definitions, model hierarchy, empirical tests, unsuccessful regimes and mechanistic explanations.",
+      "limitations": "Coauthored deck; static PDF cannot reveal animation or timing. Pages 34-36 and 38 render blank except page numbers. Some overlapping or missing content may be an export artifact. Day recording not watched.",
+      "historical_collection_paths": {
+        "pdf": "raw/blocking-2024.pdf",
+        "visual_renders": "visuals/contact-01-06.jpg through visuals/contact-37-39.jpg; original single-page renders retained",
+        "availability": "Historical paths in the original research workspace; these files are not bundled with the skill. Retrieve the source PDF from the public URL above and use its PDF page numbers to reproduce the visual inspection."
+      }
+    },
+    {
+      "id": "T10",
+      "title": "Integrating physics, data and scientific machine learning to predict climate variability and extremes",
+      "url": "https://engage.aps.org/gpc/resources/seminar-series",
+      "content_date": "2023-10-18",
+      "date_type": "event date",
+      "source_family": "aps-gpc-2023-climate-ml",
+      "speaker": "Pedram Hassanzadeh",
+      "access_level": "official archive read; video endpoint identified",
+      "locator": "October 18, 2023 entry; https://www.youtube.com/watch?v=I4PCykAEFSU",
+      "summary": "Older direct-speaker seminar for historical comparison and eventual delivery analysis.",
+      "limitations": "Video not watched; subtitles and Q&A unknown. Lower recency weight, not a substitute for current technical evidence."
+    }
+  ],
+  "schema_version": 1
+}

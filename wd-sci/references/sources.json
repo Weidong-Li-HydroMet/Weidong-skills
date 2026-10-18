@@ -1,0 +1,297 @@
+{
+  "as_of": "2026-10-18",
+  "scope": "Public evidence for a Pedram Hassanzadeh scientific reasoning assistant; not a claim to reproduce his private beliefs.",
+  "source_family_definition": "A distinct paper or official research-program statement. Versions and derivative explainers share one family. The two monsoon papers are separate papers but belong to one closely related research program.",
+  "records": 17,
+  "source_families": 16,
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Climate Extremes Theory and Data (CeTD) Group: research program and publications",
+      "url": "https://envfluids.github.io/",
+      "related_urls": [
+        "https://envfluids.github.io/publications/",
+        "https://geosci.uchicago.edu/people/pedram-hassanzadeh/"
+      ],
+      "content_date": null,
+      "version": "Official website inspected 2026-10-18; no page-level publication date",
+      "source_family": "cetd-research-program",
+      "author_role": "Official group statement; individual authorship not specified",
+      "access_level": "Full official page and publication directory read",
+      "locator": "Homepage opening research statement; publications page Submitted, 2026, and Selected Publications sections",
+      "summary": "The group combines nonlinear and climate dynamics, applied and computational mathematics, and AI to understand multiscale systems and develop interpretable, generalizable predictions. Its stated applications include extreme weather, climate, turbulence, and human-centered weather forecasting.",
+      "limitations": "Program-level description, not a ranked personal preference list. Selected papers indicate salience but not an ordering. Access date is not content date."
+    },
+    {
+      "id": "S02",
+      "title": "Missing the Butterfly and Predicting the Past: Features or Bugs of Accurate AI Weather Models?",
+      "url": "https://arxiv.org/abs/2608.25835",
+      "related_urls": [
+        "https://arxiv.org/html/2608.25835v1"
+      ],
+      "content_date": "2026-08-26",
+      "version": "arXiv v1; preprint",
+      "source_family": "butterfly-backcasting",
+      "author_role": "First and co-corresponding author; Author contributions explicitly says PH conceived the idea and wrote the paper",
+      "access_level": "Full HTML, main results, discussion, and author contributions read; date verified from arXiv version history",
+      "locator": "Sections 2.3 and 2.4; Section 3 Discussion, especially paragraphs on coarse-grained training data and feature-versus-bug interpretation; Author contributions",
+      "summary": "Controlled experiments connect coarse-grained training information to suppressed rapid error growth and unexpectedly accurate backcasting. Such behavior can benefit short-range large-scale prediction while compromising representations of predictability and irreversibility. The discussion questions whether demanding all physics-like behavior is appropriate for every prediction task and argues that architecture or loss changes cannot replace missing training information.",
+      "limitations": "Latest directly attributable statement but a preprint. Butterfly-like behavior is distinguished from the actual atmospheric butterfly effect. Concerns about climate and some extremes are partly prospective, not demonstrated universal failures."
+    },
+    {
+      "id": "S03",
+      "title": "Analytical and AI-Discovered Stable, Accurate, and Generalizable Subgrid-Scale Closure for Geophysical Turbulence",
+      "url": "https://arxiv.org/abs/2509.20365",
+      "related_urls": [
+        "https://arxiv.org/html/2509.20365v3",
+        "https://journals.aps.org/prl/abstract/10.1103/v28b-5qmp"
+      ],
+      "content_date": "2026-01-01",
+      "publication_date": "2026-02-10",
+      "version": "Full arXiv v3 inspected; PRL 136, 064201 publication metadata verified",
+      "source_family": "analytical-ai-closure",
+      "author_role": "Last and contact author; all authors conceptualized, designed, and interpreted; PH supervised and funded",
+      "access_level": "Full preprint HTML and journal abstract/metadata read",
+      "locator": "Opening criteria for closures; concluding discussion of NGM4 versus NGM6, resolution criterion, and AI-assisted analytic discovery; Author contributions",
+      "summary": "A useful closure must reproduce stress structures, interscale energetics, and coupled simulation statistics. AI discovery motivates an analytic derivation. Higher offline accuracy does not guarantee superior online behavior: NGM6 offers no clear online advantage over NGM4 in tested cases. Stability has a resolution condition, and conclusions are scoped to particular explicit LES configurations.",
+      "limitations": "Final journal full text not separately inspected. Specific turbulence, filter, resolution, and closure conditions matter; this is not proof that deterministic local closures suffice universally."
+    },
+    {
+      "id": "S04",
+      "title": "AI-Boosted Rare Event Sampling to Characterize Extreme Weather",
+      "url": "https://arxiv.org/abs/2510.27066",
+      "related_urls": [
+        "https://arxiv.org/html/2510.27066v3",
+        "https://journals.aps.org/prl/abstract/10.1103/b1gc-9c2q"
+      ],
+      "content_date": "2026-07-02",
+      "publication_date": "2026-08-05",
+      "version": "Full arXiv v3 inspected; PRL 137, 064201 publication metadata verified",
+      "source_family": "ai-rare-event-sampling",
+      "author_role": "Senior/contact coauthor; conceptualization, supervision, review and editing; original draft credited to other authors",
+      "access_level": "Full preprint HTML and journal abstract/metadata read",
+      "locator": "Figure 1 and algorithm description; Discussion on imperfect emulators, validation against long simulations, and PlaSim limitations; Author contributions",
+      "summary": "A fast AI emulator guides rare-event sampling of a more expensive physics model. The emulator need not independently generate an accurate extreme tail to be useful in this role. The method is validated against long simulations; rare-event probabilities remain grounded in the sampled physical model.",
+      "limitations": "Proof of concept with PlaSim. The study explicitly does not establish whether the sampled model's rare events faithfully represent the real world."
+    },
+    {
+      "id": "S05",
+      "title": "Decision-oriented benchmarking to transform AI weather forecast access: Application to the Indian monsoon",
+      "url": "https://arxiv.org/abs/2602.03767",
+      "related_urls": [
+        "https://arxiv.org/html/2602.03767v1"
+      ],
+      "content_date": "2026-02-03",
+      "version": "arXiv v1; preprint",
+      "source_family": "monsoon-decision-benchmark",
+      "author_role": "Last and co-corresponding author in a multidisciplinary collaboration",
+      "access_level": "Full HTML read, including introduction and operational evaluation methods",
+      "locator": "Introduction on stakeholder decisions and forecast access; Methods on initialization dates, operational information, and monsoon-onset benchmarking",
+      "summary": "Forecast evaluation should reflect consequential local decisions and operational information availability. Aggregate meteorological scores do not establish usefulness for monsoon decisions. Retrospective event selection and convenient initialization dates can conceal false alarms and missed events, motivating realistic schedules and suitable baselines.",
+      "limitations": "Collaborative project, not sole-author preference evidence. Monsoon-specific metrics need adaptation to other decisions. Related to S06, so their agreement is not independent cross-domain confirmation."
+    },
+    {
+      "id": "S06",
+      "title": "Designing probabilistic AI monsoon forecasts to inform agricultural decision-making",
+      "url": "https://arxiv.org/abs/2603.07893",
+      "related_urls": [
+        "https://arxiv.org/html/2603.07893v1"
+      ],
+      "content_date": "2026-03-09",
+      "version": "arXiv v1; preprint; date from submission history",
+      "source_family": "probabilistic-monsoon-decision-design",
+      "author_role": "Coauthor; no individual writing or corresponding-author role established from inspected material",
+      "access_level": "Full HTML read, especially decision-theory framework and discussion",
+      "locator": "Decision-theory section; Discussion on evolving climatology, calibration, lead times, and blending forecasts",
+      "summary": "Calibrated probabilities can support users with different decision costs. Forecasts should add information beyond users' evolving baseline knowledge, rather than compete with an artificially static climatology. The study develops an operational blend of AI forecasts and evolving expectations and identifies lead-time limitations.",
+      "limitations": "Decision-model assumptions and regional context constrain conclusions. Closely related to S05. Do not infer PH's personal economic or policy preferences from collective authorship."
+    },
+    {
+      "id": "S07",
+      "title": "Rigorous uncertainty quantification of probabilistic AI weather forecasts with conformal prediction",
+      "url": "https://arxiv.org/abs/2606.19642",
+      "related_urls": [
+        "https://arxiv.org/html/2606.19642v1"
+      ],
+      "content_date": "2026-06-17",
+      "version": "arXiv v1; preprint",
+      "source_family": "conformal-weather-uncertainty",
+      "author_role": "Coauthor; no individual prose attribution established",
+      "access_level": "Full HTML read, including assumptions, guarantees, and discussion",
+      "locator": "Introduction; Section 2.1 online conformal method and coverage conditions; Section 4 limitations concerning extremes and multivariate structure",
+      "summary": "Good probabilistic scores or larger ensembles do not automatically ensure calibrated coverage. Online conformal adjustments provide a specific long-run marginal coverage guarantee under stated conditions. Benefits differ across variables and extremes, and separate local corrections do not preserve joint spatial or cross-variable structure automatically.",
+      "limitations": "The guarantee is not per-event, conditional, or joint coverage. Temperature and precipitation results differ. Coauthorship supports an inference about research priorities, not exclusive personal authorship."
+    },
+    {
+      "id": "S08",
+      "title": "Can AI weather models predict out-of-distribution gray swan tropical cyclones?",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12130898/",
+      "related_urls": [
+        "https://arxiv.org/abs/2410.14932",
+        "https://doi.org/10.1073/pnas.2420914122"
+      ],
+      "content_date": "2025-05-20",
+      "version": "Published PNAS full text; initial arXiv submission 2024-10-19",
+      "source_family": "gray-swan-tropical-cyclones",
+      "author_role": "Co-corresponding author; research design and writing explicitly credited jointly",
+      "access_level": "Published full text and author-contribution statement read",
+      "locator": "Forecasts Lack Physical Consistency; Summary and Discussion; experiments removing strong cyclones globally versus regionally",
+      "summary": "Controlled removal experiments distinguish extrapolation to globally absent strong cyclones from transfer of similar dynamics between regions. Gradient-wind imbalance does not explain all skill differences between the tested models. Reweighting seen rare samples differs from supplying absent events, and improving one physical balance is not established as a remedy for missing training information.",
+      "limitations": "Specific FourCastNet experiments and cyclone definitions; not a universal impossibility theorem for AI extremes. The article raises possible remedies without demonstrating all of them."
+    },
+    {
+      "id": "S09",
+      "title": "Predicting Beyond Training Data via Extrapolation versus Translocation: AI Weather Models and Dubai’s Unprecedented 2024 Rainfall",
+      "url": "https://arxiv.org/abs/2505.10241v3",
+      "related_urls": [
+        "https://arxiv.org/html/2505.10241v3",
+        "https://arxiv.org/html/2505.10241v1",
+        "https://www.science.org/doi/10.1126/sciadv.ady9406"
+      ],
+      "content_date": "2026-02-02",
+      "version": "arXiv v3; earlier v1 also inspected. Group registry lists a retitled Science Advances version in 2026; final full text not inspected.",
+      "source_family": "dubai-rainfall-translocation",
+      "author_role": "Second author; shared email addresses visible in v3, but explicit correspondence designation not confirmed in the accessed v3 HTML.",
+      "access_level": "v1 full preprint; v3 abstract, introduction, sections 3-4, discussion and captions read across writing/science integration.",
+      "locator": "v3 sections 3.1-3.2 and 4; 3.1 explicitly distinguishes ERF support from an unperformed retraining-removal test.",
+      "summary": "A successful forecast of a regionally unprecedented event need not demonstrate extrapolation beyond all training dynamics. The paper interprets Dubai rainfall forecasts through translocation of similar dynamics from elsewhere and effective receptive fields. It separates spectral or optimization limitations from missing-information and generalization limitations.",
+      "limitations": "Effective-receptive-field evidence does not identify translocation unambiguously; retraining-removal test is not performed here. v3 HTML, abs and the later group registry have title/author/abstract discrepancies, so do not invent a revision history or treat preprint wording as final journal wording."
+    },
+    {
+      "id": "S10",
+      "title": "Machine Learning for Climate Physics and Simulations",
+      "url": "https://arxiv.org/abs/2404.13227",
+      "related_urls": [
+        "https://arxiv.org/html/2404.13227v2",
+        "https://www.annualreviews.org/content/journals/10.1146/annurev-conmatphys-043024-114758"
+      ],
+      "content_date": "2024-08-18",
+      "publication_date": "2024-11-26",
+      "version": "Full arXiv v2 inspected; journal first online 2024-11-26, volume year 2025",
+      "source_family": "climate-physics-simulations-review",
+      "author_role": "Second of six coauthors; paragraph-level ownership not known",
+      "access_level": "Full preprint HTML; publisher metadata verified",
+      "locator": "Introduction distinguishing climate physics from climate simulations; Sections 8.1, 9.2, and 9.3; Summary",
+      "summary": "The review distinguishes discovering climate physics from accelerating simulations. It discusses physical constraints, climate-invariant representations, transfer learning, and analyses of what networks learn. Future climate and limited-data settings motivate concerns different from abundant stationary-data forecasting.",
+      "limitations": "Broad collaborative review, not a single-author manifesto. Proposed benefits of physical constraints are contextual. Journal volume year should not replace the date of the content actually inspected."
+    },
+    {
+      "id": "S11",
+      "title": "Explaining the physics of transfer learning in data-driven turbulence modeling",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9991455/",
+      "related_urls": [
+        "https://academic.oup.com/pnasnexus/article/2/3/pgad015/6998042",
+        "https://arxiv.org/abs/2206.03198",
+        "https://par.nsf.gov/servlets/purl/10472803"
+      ],
+      "content_date": "2023-01-23",
+      "version": "Published PNAS Nexus article, March 2023 collection; earlier preprint has a different title",
+      "source_family": "physics-of-transfer-learning",
+      "author_role": "Last and corresponding author",
+      "access_level": "Initially indexed full-text sections; subsequently full publisher PDF read through the writing-agent collection and checked during integration.",
+      "locator": "Publisher PDF p1 correspondence, Discussion physical-constraint comparison, p12 all-authors writing statement; spectral filter/flow analysis.",
+      "summary": "The study connects transfer-learning choices to physical scales and learned convolutional kernels. Its discussion already cautions that useful physical constraints must transfer across the target regimes; non-universal constraints can hurt performance. Layer-selection findings are explained for the tested systems instead of treated as universal neural-network rules.",
+      "limitations": "All authors are credited with writing. Claims apply to tested systems and architectures; do not make layer-selection results universal. The constraint warning predates 2026."
+    },
+    {
+      "id": "S12",
+      "title": "A perspective on climate model hierarchies",
+      "url": "https://nadirjeevanjee.com/papers/jeevanjee2017a.pdf",
+      "related_urls": [
+        "https://doi.org/10.1002/2017MS001038",
+        "https://repository.library.noaa.gov/view/noaa/20876/noaa_20876_DS1.pdf"
+      ],
+      "content_date": "2017-08-22",
+      "version": "Published author-hosted PDF; early-online acceptance metadata also appears in the paper",
+      "source_family": "climate-model-hierarchies",
+      "author_role": "Second of four authors; workshop-based collaborative perspective",
+      "access_level": "Full primary author-hosted PDF read; official repository metadata checked",
+      "locator": "PDF pages 4–6: Sections 3.1 simplification, 3.2 mechanism denial/affirmation, and 3.3 model comparison and shared biases",
+      "summary": "Model hierarchies are useful for testing mechanisms and assumptions along multiple axes of complexity. Simplification, mechanism-denial experiments, and comparisons between levels serve distinct purposes. Agreement among models does not establish truth when they share assumptions or biases.",
+      "limitations": "Old collaborative perspective with community input. It supports a methodological anchor, not a current ranking of preferred model classes. Simplicity is purpose-dependent."
+    },
+    {
+      "id": "S13",
+      "title": "Physics-informed machine learning: case studies for weather and climate modelling",
+      "url": "https://doi.org/10.1098/rsta.2020.0093",
+      "related_urls": [
+        "https://www.aer.com/siteassets/21data/physics_informed_climate_model_rsta.2020.0093.pdf"
+      ],
+      "content_date": "2021-02-15",
+      "version": "Published review; volume date April 2021",
+      "source_family": "physics-informed-case-studies",
+      "author_role": "One of 21 coauthors; not corresponding author; individual wording attribution unavailable",
+      "access_level": "Substantive official indexed text inspected; direct publisher and PDF access failed",
+      "locator": "Sections 1 and 2(a): motivations and goals; Section 3 case-study framework",
+      "summary": "The review presents physical knowledge as a possible route to consistency, data efficiency, generalization, and transparency, illustrated through weather and climate case studies. It is an important historical backdrop to physics-informed approaches, with diverse tasks and mechanisms.",
+      "limitations": "Weak personal attribution and partial access. Do not turn the review's broad aspirations into an unconditional personal rule or claim they were all empirically established."
+    },
+    {
+      "id": "S14",
+      "title": "Learning Closed-form Equations for Subgrid-scale Closures from High-fidelity Data: Promises and Challenges",
+      "url": "https://arxiv.org/abs/2306.05014",
+      "related_urls": [
+        "https://arxiv.org/html/2306.05014v3",
+        "https://doi.org/10.1029/2023MS003874",
+        "https://knowledge.uchicago.edu/records/tqgh6-k3y90"
+      ],
+      "content_date": "2024-07-07",
+      "publication_date": "2024-07-02",
+      "version": "Full arXiv v3 inspected; published JAMES metadata verified",
+      "source_family": "closed-form-closure-discovery",
+      "author_role": "Last and corresponding author",
+      "access_level": "Full preprint HTML and institutional metadata/header read",
+      "locator": "Section 4 discussion, especially subsections on functional performance, loss functions, candidate libraries, and dependence of diagnosed closure truth on filtering",
+      "summary": "Accurate instantaneous stress structure is insufficient for a successful coupled closure. Energetics, the candidate function library, and label construction matter. The discussion does not blame mean-squared error alone: networks trained with that loss can behave differently because their learned representations differ. Filtering also changes the supervised target.",
+      "limitations": "Conclusions concern the studied closure discovery settings. Do not generalize a particular failure into a ban on a loss function or symbolic regression."
+    },
+    {
+      "id": "S15",
+      "title": "On the importance of learning non-local dynamics for stable data-driven climate modeling: A 1D gravity wave-QBO testbed",
+      "url": "https://arxiv.org/abs/2407.05224",
+      "related_urls": [
+        "https://arxiv.org/html/2407.05224v2",
+        "https://doi.org/10.1029/2024GL114136"
+      ],
+      "content_date": "2024-07-16",
+      "version": "Full arXiv v2 inspected; GRL publication year 2025 and indexed final discussion checked",
+      "source_family": "nonlocal-qbo-testbed",
+      "author_role": "Second of three coauthors; individual writing attribution not established",
+      "access_level": "Full preprint HTML; indexed publisher discussion for final-version qualification",
+      "locator": "Results comparing receptive fields with matched parameter counts; Discussion on nonlocal information and the scope of nonlocal architectures",
+      "summary": "High offline fit can coexist with failed coupled dynamics. In this testbed, learning the relevant nonlocal interactions and effective receptive fields helps explain stability. The final discussion cautions that not every climate process is nonlocal and that irrelevant nonlocal information can hurt performance.",
+      "limitations": "A one-dimensional testbed, not evidence that larger receptive fields always help. The explicit final-version caveat was inspected through indexed publisher text."
+    },
+    {
+      "id": "S16",
+      "title": "Forecasting the Unseen: AI Weather Models and Gray Swan Extreme Events",
+      "url": "https://www.siam.org/publications/siam-news/articles/forecasting-the-unseen-ai-weather-models-and-gray-swan-extreme-events/",
+      "content_date": "2025-11-14",
+      "version": "Author-signed SIAM News explainer",
+      "source_family": "gray-swan-tropical-cyclones",
+      "author_role": "Jointly authored by Sun, Hassanzadeh, Weare, and Abbot",
+      "access_level": "Full author-signed article read",
+      "locator": "Section headed Physics-informed AI: A Mathematical Necessity; concluding discussion of open questions and mathematical work",
+      "summary": "The authors explain gray-swan forecasting and motivate mathematical and physical research. Some framing is stronger about physics-informed AI than the underlying paper's narrowly qualified experimental conclusions. It is useful evidence of public communication but should be read alongside the research article and later first-author work.",
+      "limitations": "Derivative of S08, not independent experimental evidence. Collaborative explanatory genre. A heading cannot establish a universal personal doctrine or overrule the paper's qualifications."
+    },
+    {
+      "id": "S17",
+      "title": "Benchmarking Regional Thermodynamic Trends in an AI emulator, ACE2, and a hybrid model, NeuralGCM",
+      "url": "https://arxiv.org/abs/2511.00274",
+      "related_urls": [
+        "https://arxiv.org/html/2511.00274v2",
+        "https://envfluids.github.io/publications/"
+      ],
+      "content_date": "2025-11-04",
+      "version": "Full arXiv v2 inspected; official publications page lists GRL 2026, final text not inspected",
+      "source_family": "regional-thermodynamic-trends",
+      "author_role": "Third of five coauthors; not corresponding author",
+      "access_level": "Full preprint HTML; official final-publication listing",
+      "locator": "Section 4.2 discussion of regional trends, architectural comparisons, differing inputs, and historical versus future-climate scope",
+      "summary": "An entirely data-driven emulator can match or exceed hybrid or physical models for particular historical regional thermodynamic trends. A dynamical core alone does not guarantee better results. Differences in inputs and missing components complicate causal architectural comparisons, and historical prescribed-ocean experiments do not establish future coupled-climate generalization.",
+      "limitations": "The final 2026 text was not inspected. Architecture, training, and input differences are confounded; avoid claiming a universal win for any model class."
+    }
+  ],
+  "schema_version": 1
+}

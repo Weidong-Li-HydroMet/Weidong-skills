@@ -1,0 +1,4 @@
+interface:
+  display_name: "WD-slides"
+  short_description: "Create and review clear, figure-led scientific slides"
+  default_prompt: "Use $wd-slides to create or review these scientific slides using my visual and scientific standards."
